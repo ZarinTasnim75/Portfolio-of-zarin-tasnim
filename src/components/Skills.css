@@ -1,0 +1,161 @@
+.skills {
+  padding: 90px 8%;
+  background: #fff8f5;
+}
+
+.skills-subtitle {
+  text-align: center;
+  color: #666;
+  margin: 15px auto 50px;
+  max-width: 650px;
+  line-height: 1.7;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.skill-card {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, .08);
+  transition: .3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+}
+
+.skill-card h3 {
+  color: #EC6530;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  background: #FFE3E3;
+  color: #333;
+
+  padding: 10px 15px;
+
+  border-radius: 30px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  position: relative;
+
+  cursor: pointer;
+}
+
+.skill-badge .icon {
+  font-size: 20px;
+  color: #EC6530;
+}
+
+.featured {
+  background: linear-gradient(
+      135deg,
+      #EC6530,
+      #FFAE6E
+  );
+
+  color: white;
+}
+
+.featured .icon {
+  color: white;
+}
+
+.new-badge {
+  position: absolute;
+
+  top: -6px;
+  right: -6px;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+
+  background: white;
+
+  color: #EC6530;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 12px;
+
+  font-weight: bold;
+}
+
+.exploring{
+    margin-top:70px;
+    text-align:center;
+}
+
+.exploring h3{
+    color:#EC6530;
+    margin-bottom:30px;
+    font-size:28px;
+}
+
+.exploring-container{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:18px;
+}
+
+.explore-badge{
+
+    background:white;
+
+    padding:14px 24px;
+
+    border-radius:40px;
+
+    font-weight:600;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+    cursor:pointer;
+
+}
+
+.explore-badge:hover{
+
+    background:#EC6530;
+
+    color:white;
+
+    transform:translateY(-8px) scale(1.05);
+
+}
+
+@media (max-width:768px){
+
+.skill-card{
+
+padding:22px;
+
+}
+
+}

@@ -1,0 +1,13 @@
+.about{
+    padding:80px 8%;
+    background:#ffffff;
+}
+
+
+.about p{
+    max-width:900px;
+    margin:20px auto;
+    line-height:1.8;
+    color:#555;
+    font-size:18px;
+}

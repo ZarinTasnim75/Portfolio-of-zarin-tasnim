@@ -1,0 +1,10 @@
+.projects {
+  padding: 80px 8%;
+  background: #fff8f5;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}

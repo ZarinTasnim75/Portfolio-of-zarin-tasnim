@@ -1,0 +1,148 @@
+.project-details {
+  min-height: 100vh;
+  padding: 80px 8%;
+  background: #fff8f5;
+}
+
+.project-container {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.project-image {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 2rem;      /* 32px */
+  font-weight: 700;
+  color: #ec6530;
+  margin-bottom: 15px;
+}
+
+.project-description {
+  font-size: 1rem;      /* 16px */
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 1.35rem;   /* ~22px */
+  font-weight: 600;
+  color: #ec6530;
+  margin: 30px 0 16px;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tech-badge {
+    background: linear-gradient(135deg, #ec6530, #ffae6e); 
+    color: white;
+  padding: 8px 16px;
+  border-radius: 24px;
+  font-size: 0.9rem;    /* ~14px */
+  font-weight: 500;
+  transition: .3s;
+}
+
+.tech-badge:hover {
+  transform: translateY(-4px);
+}
+
+.info-box {
+  background: #fff;
+  border-left: 5px solid #ec6530;
+  padding: 20px 25px;
+  border-radius: 12px;
+  margin-top: 18px;
+}
+
+.info-box ul {
+  padding-left: 20px;
+}
+
+.info-box li {
+  font-size: 0.95rem;   /* ~15px */
+  line-height: 1.8;
+  margin: 8px 0;
+}
+
+
+.project-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 35px;
+}
+
+.project-btn {
+  background: #ec6530;
+  color: white;
+  padding: 12px 22px;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: .3s;
+}
+
+.project-btn:hover {
+  background: #ffae6e;
+  transform: translateY(-4px);
+}
+
+.back-btn {
+  display: inline-block;
+  margin-top: 35px;
+  color: #ec6530;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+
+  .project-details {
+    padding: 40px 5%;
+  }
+
+  .project-container {
+    padding: 22px;
+  }
+
+  .project-title {
+    font-size: 1.6rem;
+  }
+
+  .project-description {
+    font-size: 0.95rem;
+  }
+
+  .section-title {
+    font-size: 1.15rem;
+  }
+
+  .tech-badge {
+    font-size: 0.8rem;
+    padding: 7px 14px;
+  }
+
+  .project-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

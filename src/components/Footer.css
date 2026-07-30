@@ -1,0 +1,48 @@
+.footer {
+  background:
+    linear-gradient(rgba(240, 227, 177, 0.75), rgba(233, 231, 221, 0.75)),
+    url("/footer-bg.jpg") center/cover no-repeat;
+
+  color: white;
+  text-align: center;
+  padding: 35px 20px;   /* Reduced from 70px */
+}
+
+.footer h3 {
+  font-size: 1.9rem;
+  color: #fb750e;
+  margin-bottom: 6px;
+}
+
+.footer p {
+  color: #a61d1d;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.footer-line {
+  width: 70px;
+  height: 3px;
+  background: #ec6530;
+  margin: 15px auto;
+  border-radius: 20px;
+}
+
+.copyright {
+  font-size: 0.9rem;
+  color: #bdbdbd;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 28px 15px;
+  }
+
+  .footer h3 {
+    font-size: 1.4rem;
+  }
+
+  .footer-line {
+    margin: 12px auto;
+  }
+}
